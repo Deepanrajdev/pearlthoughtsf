@@ -35,9 +35,10 @@ jobs:
       - name: Build and Push Docker Image
         run: |
           cd ..
-          docker build -t talibk/medusa-backend .
-          docker tag talibk/medusa-backend:latest talibk/medusa-backend:latest
-          docker push talibk/medusa-backend:latest
+          docker build -t deepatteam7/medusa-backend .
+          docker tag deepatteam7/medusa-backend:latest deepatteam7/medusa-backend:latest
+          docker push deepatteam7/medusa-backend:latest
+
 
       - name: Initialize Terraform
         run: terraform init
