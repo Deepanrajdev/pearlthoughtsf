@@ -139,4 +139,4 @@ resource "aws_ecs_service" "medusa_service" {
   }
 
   depends_on = [aws_internet_gateway.igw]
-}
+}#de
